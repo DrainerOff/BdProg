@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutY="80.0" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #FAFAFA;">
+         <children>
+            <Button fx:id="SelectActors" layoutX="88.0" layoutY="24.0" mnemonicParsing="false" text="Актеры" />
+            <AnchorPane layoutX="252.0" layoutY="7.0" opacity="0.88" prefHeight="702.0" prefWidth="1018.0" style="-fx-background-color: #2E3348;" />
+            <Button fx:id="SelectCharacters" layoutX="76.0" layoutY="110.0" mnemonicParsing="false" text="Персонажи" />
+            <Button fx:id="SelectEpisodes" layoutX="85.0" layoutY="381.0" mnemonicParsing="false" text="Эпизоды" />
+            <Button fx:id="SelectEvents" layoutX="84.0" layoutY="151.0" mnemonicParsing="false" text="События" />
+            <Button fx:id="SelectFilmCrewMembers" layoutX="24.0" layoutY="198.0" mnemonicParsing="false" text="Работники съемочной группы" />
+            <Button layoutX="86.0" layoutY="486.0" mnemonicParsing="false" text="Фракции" />
+            <Button layoutX="85.0" layoutY="433.0" mnemonicParsing="false" text="Локации" />
+            <Button layoutX="95.0" layoutY="282.0" mnemonicParsing="false" text="Шоу" />
+            <Button layoutX="86.0" layoutY="332.0" mnemonicParsing="false" text="Сезоны" />
+            <Button layoutX="67.0" layoutY="532.0" mnemonicParsing="false" text="Сюжетные арки" />
+            <Button layoutX="73.0" layoutY="66.0" mnemonicParsing="false" text="Типы актеров" />
+            <Button layoutX="8.0" layoutY="237.0" mnemonicParsing="false" text="Типы работников съемочной группы" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="502.0" layoutY="14.0" text="Shows Aggregator" textFill="WHITE">
+         <font>
+            <Font name="Corbel Light" size="37.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

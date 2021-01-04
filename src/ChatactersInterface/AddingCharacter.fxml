@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CharacterAddingController">
+    <children>
+        <AnchorPane layoutY="80.0" prefHeight="320.0" prefWidth="700.0" style="-fx-background-color: #FAFAFA;">
+            <children>
+                <AnchorPane layoutX="6.0" layoutY="7.0" opacity="0.88" prefHeight="306.0" prefWidth="686.0" style="-fx-background-color: #2E3348;">
+                    <children>
+                        <TextField fx:id="ActorNameField" layoutX="82.0" layoutY="62.0" prefHeight="16.0" prefWidth="113.0" />
+                        <Label layoutX="113.0" layoutY="14.0" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="82.0" layoutY="27.0" text="Полное имя" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="78.0" layoutY="125.0" text="Ссылка на фото" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="18.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="CharacterUrlField" layoutX="78.0" layoutY="169.0" prefHeight="38.0" prefWidth="568.0" />
+                        <TextField fx:id="CharacterBioField" layoutX="237.0" layoutY="62.0" prefHeight="38.0" prefWidth="150.0" />
+                        <Label layoutX="263.0" layoutY="27.0" text="Биография" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="18.0" />
+                            </font>
+                        </Label>
+                        <Button fx:id="CharacterAddButton" layoutX="558.0" layoutY="59.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="98.0" text="Добавить" />
+                  <TextField fx:id="CharacterEventIdField" layoutX="420.0" layoutY="61.0" prefHeight="26.0" prefWidth="34.0" />
+                  <TextField fx:id="CharacterFractionIdField" layoutX="495.0" layoutY="61.0" prefHeight="26.0" prefWidth="34.0" />
+                  <Label layoutX="409.0" layoutY="32.0" text="Id Ивента" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="478.0" layoutY="31.0" text="Id фракции" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                    </children></AnchorPane>
+            </children>
+        </AnchorPane>
+        <Label layoutX="212.0" layoutY="14.0" text="Shows Aggregator" textFill="WHITE">
+            <font>
+                <Font name="Corbel Light" size="37.0" />
+            </font>
+        </Label>
+        <Button fx:id="BackButton" layoutX="33.0" layoutY="23.0" mnemonicParsing="false" text="Назад">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
